@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\DoorCellOpen.cs" />
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\GlobalHealth.cs" />
+    <Compile Include="Assets\Scripts\KeypickUp.cs" />
+    <Compile Include="Assets\Scripts\LockedDoor.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Sequences\AOpening.cs" />
