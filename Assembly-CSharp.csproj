@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Sequences\AOpening.cs" />
     <Compile Include="Assets\Scripts\Sequences\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\Sequences\BZJUmpTrigger.cs" />
+    <Compile Include="Assets\Scripts\VaseBreak.cs" />
     <Compile Include="Assets\Scripts\ZombieAI.cs" />
     <Compile Include="Assets\Scripts\ZombieDeath.cs" />
     <None Include="Assets\Horror Assets\Read me.txt" />
