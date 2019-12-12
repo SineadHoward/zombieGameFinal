@@ -11,8 +11,8 @@ public class LockedDoor : MonoBehaviour {
     public GameObject ActionText;
     public GameObject ExtraCross;
     public AudioSource LockDoor;
-   
-
+    public KeypickUp key;
+ 
     void Update()
     {
         TheDistance = PlayerCasting.DistanceFromTarget;
@@ -32,13 +32,13 @@ public class LockedDoor : MonoBehaviour {
         {
             if (TheDistance <= 5)
             {
+                System.Diagnostics.Debug.WriteLine("triggered damage function");
                 this.GetComponent<BoxCollider>().enabled = false;
                 ActionDisplay.SetActive(false);
                 ActionText.SetActive(false);
                 ExtraCross.SetActive(false);
-              
-               
-              
+
+             
             }
         }
     }

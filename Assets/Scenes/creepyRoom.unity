@@ -9621,7 +9621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070297510}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: keyhold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9634,12 +9634,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070297509}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.508995, y: -16.238913, z: 1.0088577}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.2991006, y: -1.3058913, z: -3.429114}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 915264968}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1091014718
 GameObject:
@@ -12626,6 +12626,7 @@ MonoBehaviour:
   ActionText: {fileID: 1274459995}
   ExtraCross: {fileID: 1170420630}
   LockDoor: {fileID: 714214662}
+  key: {fileID: 0}
 --- !u!1 &1658787844
 GameObject:
   m_ObjectHideFlags: 0
@@ -18741,6 +18742,7 @@ MonoBehaviour:
   ActionText: {fileID: 1274459995}
   ExtraCross: {fileID: 1170420630}
   TheKey: {fileID: 116958020}
+  HaveKey: 0
 --- !u!65 &1970811082
 BoxCollider:
   m_ObjectHideFlags: 0

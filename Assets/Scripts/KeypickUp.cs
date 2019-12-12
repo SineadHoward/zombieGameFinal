@@ -11,6 +11,7 @@ public class KeypickUp : MonoBehaviour {
     public GameObject ActionText;
     public GameObject ExtraCross;
     public GameObject TheKey;
+    public bool HaveKey = false;
    
 
     void Update()
@@ -37,6 +38,7 @@ public class KeypickUp : MonoBehaviour {
                 ActionText.SetActive(false);
                 ExtraCross.SetActive(false);
                 TheKey.SetActive(false);
+                HaveKey = true;
               
                
               
